@@ -1,0 +1,148 @@
+body {
+	font-family: Arial, sans-serif, Helvetica;
+	margin: 0px;
+	padding: 0px;
+	background-color: grey;
+	color: white;
+}
+section div{
+	width: 792px;
+	height: 595px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+
+	background-image: url(../Images/background.PNG);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+table {
+	position: relative;
+	top: 25px;
+	left: 5px;
+	margin: 5px;
+}
+
+td {
+	width: 0px;
+	height: 0px;
+	margin: 5px;
+}
+
+tr.first td:nth-child(1) {
+	width: 204px;
+	height: 140px;
+	
+	background-image: url(../Images/teleriklogo.PNG);
+	background-repeat: no-repeat;
+	background-position: 5px 0px;
+	
+}
+
+tr.first td:nth-child(2) {
+	width: 170px;
+	height: 140px;
+	
+	background-image: url(../Images/cssyellow.PNG);
+	background-repeat: no-repeat;
+	background-position: 22px 16px;
+	
+}
+
+tr.first td:nth-child(3) {
+	width: 380px;
+	height: 150px;
+	
+	background-image: url(../Images/note.PNG);
+	background-repeat: no-repeat;
+	background-position: 59px 24px;
+	
+}
+
+tr.second td:nth-child(1) {
+	width: 160px;
+	height: 140px;
+
+	background-image: url(../Images/cssgreen.PNG);
+	background-repeat: no-repeat;
+	background-position: 63px 51px;
+}
+
+tr.second td:nth-child(2) {
+	font-weight: bold;
+	font-size: 48px;
+	padding-right: 40px;
+	text-align: right;
+	vertical-align: top;
+	color: #AEDF64;
+	border-bottom: 2px grey solid;
+}
+
+/*
+
+tr.second p {
+	background: -webkit-gradient(linear, left top, left bottom, from(#F7FCF0), to(	#D6EFB2));
+
+}
+
+*/
+
+table.tabsecond {
+	position: relative;
+	top: 28px;
+	line-height: 26px;
+}
+
+table.tabsecond td:nth-child(2) {
+	width: 196px;
+	height: 200px;
+	background-image: url(../Images/cssred.PNG);
+	background-repeat: no-repeat;
+	background-position: 0px 24px;
+}
+
+table.tabsecond td:nth-child(3) {
+	width: 251px;
+	height: 251px;
+	background-image: url(../Images/telerikninja.PNG);
+	background-repeat: no-repeat;
+	background-position: -4px 24px;
+}
+
+ul {
+	width: 307px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	padding-left: 30px;
+}
+
+ul li:nth-child(1) {
+	font-size: 32px;
+	color: #D4FF68;
+}
+
+ul li:nth-child(2) {
+	font-size: 24px;
+	color: #5A902F;
+}
+
+ul li:nth-child(4) {
+	font-size: 20px;
+}
+
+ul li a {
+	font-size: 20px;
+	color: #ADD87F;
+}
+
+
+
+
+
+
+
+

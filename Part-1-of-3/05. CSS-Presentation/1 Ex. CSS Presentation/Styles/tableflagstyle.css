@@ -1,0 +1,90 @@
+body {
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	text-align:left;
+	background-color:white;
+}
+
+nav {
+	width: 550px;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 11px;
+	background-color: white;
+	color: green;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0px;
+	margin-left: 0px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	color: green;
+}
+
+nav a:hover {
+	color: red;
+}
+
+.table {
+	text-decoration:none;
+	border:10px green solid;
+	border-collapse:collapse;
+}
+
+tr#grey1, #grey2 {
+	background-color:#F0F0F0;
+}
+
+table th, table td {
+	width:150px;
+	height:35px;
+	padding:8px;
+	vertical-align:middle;
+	border-right:1px #D0D0D0 solid;
+	border-collapse:collapse;
+}
+
+table td {
+	border-right:2px #F8F8F8;
+	border-right-style:groove;
+}
+
+.th {
+	background-color:#00CC33;
+	color:white;
+	border:3px #66CC33 outset;
+	/*border-right-style:groove;
+	border-bottom-style:outset; */
+}
+
+.gef {
+	background-image:url("../Images/germ.PNG");
+	background-repeat:no-repeat;
+	background-position:8px center;
+	padding-left:55px;
+}
+
+.mef {
+	background-image:url("../Images/mex.PNG");
+	background-repeat:no-repeat;
+	background-position:8px center;
+	padding-left:55px;
+}
+
+.ukf {
+	background-image:url("../Images/uk.PNG");
+	background-repeat:no-repeat;
+	background-position:8px center;
+	padding-left:55px;
+}

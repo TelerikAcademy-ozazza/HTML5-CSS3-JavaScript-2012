@@ -1,0 +1,74 @@
+body {
+	margin: 20px;
+}
+
+.inline {
+	position: relative;
+	font-family: Arial, sans-serif, Halvetica;
+	font-size: 11px;
+}
+
+.inline li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+
+.inline li, .inline a {
+	height: 40px;
+	display: block;
+	text-decoration: none;	
+}
+
+.inline a {
+	vertical-align: bottom;
+	padding-top: 40px;
+}
+
+.dashboard {
+	left: 0px;
+	width: 60px;
+}
+
+.dashboard {
+	background: url("../Images/Dashboard2.PNG") 0 0;
+}
+
+.tasks {
+	left: 80px;
+	width: 40px;
+}
+
+.tasks {
+	background: url("../Images/tasks2.PNG") -80px 0;
+}
+
+.users {
+	left: 160px;
+	width: 40px;
+}
+
+.users {
+	background: url("../Images/users.PNG") -160px 0;
+}
+
+.reports {
+	left: 240px;
+	width: 40px;
+}
+
+.reports {
+	background: url("../Images/reports.PNG") -240px 0;
+}
+
+.errorpages {
+	left: 320px;
+	width: 60px;
+}
+
+.errorpages {
+	background: url("../Images/errorpages.PNG") -320px 0;
+}
+

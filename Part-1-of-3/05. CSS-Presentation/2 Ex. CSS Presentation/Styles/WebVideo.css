@@ -1,0 +1,77 @@
+body {
+	font-family: Arial, sans-serif, Helvetiva;
+	font-size: 12px;
+	word-wrap: break-word;
+}
+
+section {
+	width: auto;
+	height: auto;
+	border-radius: 10px;
+	border: 5px grey solid;
+}
+
+table {
+	margin: 30px;
+	background-color: navy;
+	color: white;
+	border-radius: 10px;
+}
+
+th {
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+
+ul {
+	list-style-type: none;
+	line-height: 200%;
+	padding: 0;
+	margin: 0;
+}
+
+td.videodisplay {
+	width: 660px;
+	height: 380px;
+	background-image: url("../Images/arwenangry.PNG");
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+}
+
+.playlist td {
+	width: 100px;
+}
+
+.playlist ul {
+	overflow-y: scroll;
+}
+
+.playlist a {
+	color: white;
+}
+
+.playback {
+	padding-left: 10px;
+}
+
+.playback input {
+	width: 560px;
+	margin-left: 30px;
+	vertical-align: middle;
+}
+
+ul.inlinebuttons {
+	text-align: center;
+}
+
+ul.inlinebuttons li {
+	display: inline;
+}
+
+.inlinebuttons input {
+	width: 100px;
+	margin: 25px 10px;
+	font-weight: bold;
+}

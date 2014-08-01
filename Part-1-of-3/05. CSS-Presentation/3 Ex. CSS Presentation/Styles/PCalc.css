@@ -1,0 +1,314 @@
+body {
+font-family: Verdana, Arial, sans-serif, Helvetica;
+}
+
+
+/*===================================== TABLE .buttons ==*/
+
+table.buttons {
+	border-collapse: collapse;
+	color: #803333;
+}
+
+.buttons td input[type="button"] {
+	width: 36px;
+	height: 30px;
+	padding: 3px 1px;
+	margin: 1px;
+	font-size: 11px;
+	text-align: center;
+	color: #803333;
+	border-radius: 2px;
+	border: 1px #803333 solid;
+}
+
+table.buttons td {
+	padding: 1px;
+	margin: 2px;
+	border-spacing: 0px;
+}
+
+#enter {
+	height: 64px;
+	margin: 1px;
+	font-weight: bold;
+}
+
+#zero {
+	width: 76px;
+	margin: 1px;
+}
+
+#radio {
+}
+
+#radio ul {
+	width: 72px;
+	height: auto;
+	margin: 1px;
+	padding: 0px;
+	font-size: 11px;
+	list-style: none;
+	border-radius: 2px;
+	border: 1px #803333 solid;
+	line-height: 1px;
+}
+
+#radio li {
+	height: 24px;
+	text-align: left;
+	padding-left: 8px;
+	vertical-align: middle;
+	background: #FFC2C2;
+	
+}
+
+#radio input {
+	width: 13px;
+	height: 13px;
+	margin: 3px 0px 3px 3px;
+}
+
+/*							how to check radio buttons? 
+.selected {
+	
+}
+*/
+
+/*							how to disable button in css?
+input.disabled:disabled
+*/
+
+input.sizeup[value^="&#8592;"] {		/*	useless ??	*/
+	font-weight: bold;
+}
+
+.buttons td input.sizeup {
+	font-size: 16px;
+}
+
+.buttons td input {
+	background: -webkit-linear-gradient(#FFF0F0, #FFC2C2);
+}
+
+.buttons td input[value="0"], 
+.buttons td input[value="1"], 
+.buttons td input[value="2"], 
+.buttons td input[value="3"], 
+.buttons td input[value="4"], 
+.buttons td input[value="5"], 
+.buttons td input[value="6"], 
+.buttons td input[value="7"], 
+.buttons td input[value="8"], 
+.buttons td input[value="9"] {
+	background: -webkit-linear-gradient(#FFFFFF, #FFD1D1, #FFFFFF);
+}
+
+.buttons td input[disabled="disabled"] {
+	background: #FFD1D1;
+	border-color: #E65C5C;
+	color: #E65C5C;
+}
+
+.buttons td input[value^="M"] {
+	background: #FFC2C2;
+}
+
+.buttons td input:not(.disabled):hover {
+	background: -webkit-linear-gradient(#FFB2B2, #FF6666, #FFB2B2);
+	
+}
+.buttons td input:not(.disabled):hover {
+	border: 1px #FF8585 solid;
+}
+
+.buttons td input:not(.disabled):active {
+	font-weight: bold;
+	color: #E65C5C;
+	border: 2px #662929 solid;
+	background: -webkit-linear-gradient(#662929, #FF6666, #FF6666, #FF8585, #FF8585, #FF6666, #FF6666, #662929);
+}
+
+/*========================================== table .display2 ==*/
+
+table.display2 {
+	font-family: Consolas;
+	width: 394px;
+	margin: 1px 3px 2px 2px;
+	padding: 1px;
+	font-size: 13px;
+	text-align: left;
+	background-color: #FFFFFF;
+	color: #803333;
+	border-radius: 2px;
+	border: 1px #803333 solid;
+	border-spacing: 0px;
+}
+
+table.display2 td {
+	width: 29px;
+	height: 15px;
+	padding: 0px 10px;
+	background-color: #FFC2C2;
+}
+
+table.display2 .grey {
+	color: grey;
+}
+
+table.display2 .right {
+	text-align: right;
+}
+
+/*===================================== main display .display1 ==*/
+
+div.display1 {
+	width: 372px;
+	height: 30px;
+	margin: 12px 0px 4px 2px;
+	padding: 10px;
+	font-size: 22px;
+	line-height: 40px;
+	text-align: right;
+	color: #4C1F1F;
+	border-radius: 2px;
+	border: 1px #803333 solid;
+	background: -webkit-linear-gradient(#FFE0E0, #FFF0F0, #FFFFFF, #FFFFFF);
+}
+
+/*====================================== menu .menu ==*/
+
+ul.menu {
+	position: relative;
+	left: -10px;
+	width: 414px;
+	padding: 2px;
+	margin: 0px;
+	border-bottom: 1px #B24747 solid;
+	background: -webkit-linear-gradient(#FFFFFF, #FFE0E0, #FFE0E0, #FF6666, #FF6666, #FFE0E0, #FFE0E0);
+}
+
+ul.menu li,
+ul.menu li input{
+	display: inline;	
+	padding: 1px;
+	margin: 0px 1px;
+	line-height: 10px;
+}
+
+ul.menu li input {
+	font-size: 11px;
+	border: none;
+	background: transparent;
+	color: #662929;
+}
+
+ul.menu li input:hover{
+	border-radius: 3px;
+	border: 1px #FF6666 solid;
+}
+
+ul.menu li input:active,
+ul.menu li input:focus {
+	border-radius: 3px;
+	border: 2px #FF6666 solid;
+	border-top: 1px;
+	border-bottom: 1px;
+}
+
+/*====================================== inside frame .inside ==*/
+
+div.inside {
+	width: 398px;
+	padding: 0px 10px 10px;
+
+	border: 1px #331414 solid;
+	background-color: #FFC2C2;
+}
+
+/*====================================== outside frame .otside ==*/
+
+form div.outside {
+	width: 420px;
+	padding: 4px 5px 5px 0px;
+	font-size: 11px;
+	border-radius: 5px;
+	border: 1px #331414 solid;
+	background-color: #FF6666;
+	background-image: url(../Images/Calc.PNG);
+	background-repeat: no-repeat;
+	background-position: 9px 3px;
+	padding-left: 5px;
+}
+
+div.outside span {
+	display: block;
+	width: 200px;
+	height: 12px;
+	margin: 2px 0px 5px 26px;
+	line-height: 8px;
+	vertical-align: top;
+	text-shadow: 2px 0px 3px #FFFFFF;
+}
+
+div.outside span input {
+	position: relative;
+	top: -16px;
+	left: 267px;
+	margin: 2px -20px 0px 17px;
+}
+
+div.outside span input:nth-of-type(1) {
+	width: 29px;
+	height: 17px;
+	position: relative;
+	top: -7px;
+	left: 232px;
+	margin: 0px 0px 0px 0px;
+	background-color:;
+	background-image: url(../Images/underscore.PNG);
+	background-repeat: no-repeat;
+	background-position: 8px 6px;
+	padding: 0px 0px 0px 0px;
+	border-bottom: 1px black solid;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	border-bottom-left-radius: 5px;
+	
+}
+
+div.outside span input:nth-of-type(2) {
+	width: 28px;
+	height: 17px;
+	position: relative;
+	top: -7px;
+	left: 231px;
+	margin: 0px 0px 0px 0px;
+	background-image: url(../Images/square.PNG);
+	background-repeat: no-repeat;
+	background-position: 7px 1px;
+	padding: 0px 0px 0px 0px;
+	border-bottom: 1px black solid;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	
+}
+
+div.outside span input:nth-of-type(3) {
+	width: 48px;
+	height: 17px;
+	position: relative;
+	top: -7px;
+	left: 230px;
+	margin: 0px 0px 0px 0px;
+	background-image: url(../Images/ex.PNG);
+	background-repeat: no-repeat;
+	background-position: 16px 1px;
+	padding: 0px 0px 0px 0px;
+	border-bottom: 1px black solid;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	border-bottom-right-radius: 5px;
+	
+}
+ 

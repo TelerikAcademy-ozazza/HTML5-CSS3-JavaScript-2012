@@ -1,0 +1,164 @@
+nav, aside, section, div, form, input,
+ ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Thaoma, Arial, Sans-serif;
+	font-size: 12px;
+	border: 1px solid grey;
+	background-color: lightgrey;
+	color: black;
+	padding-bottom: 110px;
+	margin: 5px 190px 5px 190px;
+}
+
+h4 {
+	margin: 0 0 5px 0;
+	background-color: grey;
+	color: white;
+}
+
+nav {
+	width: 150px;
+	margin: 1px;
+	padding: 1px;
+	display: block;
+	background-color: transparent;
+	float: left;
+}
+
+nav h4 {
+	background-color: transparent;
+	color: black;
+	background-image: url(../Images/homeicon2.png);
+	background-repeat: no-repeat;
+	line-height: 16px;
+	margin: 15px 0 0 0;
+	padding: 3px 0 0 20px;
+}
+
+nav div {
+	padding-top: 10px;
+}
+
+nav div a {
+	display: block;
+	text-decoration: none;
+	text-align: left;
+	color: black;
+}
+
+nav div a:nth-child(1){
+	font-weight: bold;
+	color: darkred;
+}
+
+aside {
+	width: 150px;
+	margin: 1px;
+	padding-bottom: 110px;
+	display: block;
+	float: right;
+	background-color: transparent;
+}
+
+aside a{
+	display: block;
+	padding: 2px;
+	text-align: center;
+	line-height: 14px;
+	color: darkred;
+}
+
+aside ul {
+	list-style-type: none;
+}
+
+aside ul li {
+	margin: 0 0 1px 0;
+	padding: 0 0 5px 0;
+	text-align: center;
+	border: 1px solid grey;
+	background-color: white;
+}
+
+aside form input[type*=text]{
+	display: inline-block;
+	width: 70px;
+}
+
+aside form input[name*="button"]{
+	padding: 1px 2px 1px 2px;
+	font-weight: bold;
+}
+
+aside form input[name*=style] {
+	margin: 2px;
+	padding: 10px 15px 10px 15px;
+	font-weight: bold;
+	background-color: lightblue;
+	color: blue;
+	border: 2px outset;
+	border-radius: 5px;
+}
+
+section {
+	margin: 1px 152px 1px 152px;
+	padding: 0 5px 30px 5px;
+	border: 1px solid grey;
+	background-color: white;
+}
+
+section article {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+section article div {
+	font-weight: bold;	
+	background-image: url(../Images/logocss.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 100px;
+	padding-bottom: 20px ;
+}
+
+section h1 {
+	font-size: 20px;
+}
+
+section h4 {
+	text-indent: 5px;
+}
+
+section a {
+	line-height: 20px;
+	color: darkred;
+}
+
+section form input[name*="pbutton"] {
+	background-image: url(../Images/leftbutton.PNG);
+	background-repeat: no-repeat;
+	background-position: center left;width: 102px;
+	height: 22px;
+	font-weight: bold;
+	font-size: 11px;
+	border: 2px outset black;
+}
+
+section form input[name*="nbutton"] {
+	background-image: url(../Images/rightbutton.PNG);
+	background-repeat: no-repeat;
+	background-position: center right;width: 102px;
+	height: 22px;
+	font-weight: bold;
+	font-size: 11px;
+	border: 2px outset black;	
+}
+
+body:after {
+	clear: both;
+}
+

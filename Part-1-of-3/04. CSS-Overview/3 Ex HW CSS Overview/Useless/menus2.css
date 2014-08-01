@@ -1,0 +1,86 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, dl, dt, dd, ol, ul, li, article, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	word-wrap: break-word;
+}
+
+li {
+	display:inline;
+}
+
+ol.minline {
+	list-style-type: none;
+	padding: 0px;
+	margin: 20px;
+	width: 600px;
+	height: 80px;
+	background-color: #F0F0F0;
+}
+
+li.dashboard, .tasks, .users, .reports, .errorpages {
+	margin: 5px;
+	border: 1px black solid;
+}
+
+li a {
+	text-decoration: none;
+	color: #A9A9A9;
+	font-weight: bold;
+	width: 80px;
+}
+
+li.dashboard:before {
+	background-image: url("../Images/Dashboard2.PNG");
+	background-repeat: no-repeat;
+}
+
+li.dashboard:after {
+	content: url("../Images/VLine.PNG")
+}
+
+.tasks {
+	background-image:: url("../Images/Tasks2.PNG");
+	background-repeat: no-repeat;
+	background-position: 15px 0px;
+	padding-left: px;
+	padding: px;
+
+}
+
+.tasks:after {
+	content: url("../Images/VLine.PNG")
+}
+
+.users {
+	background-image:: url("../Images/Users.PNG");
+	background-repeat: no-repeat;
+	padding: 100px;
+}
+
+.users:after {
+	content: url("../Images/VLine.PNG")
+}
+
+.reports {
+	background-image:: url("../Images/Reports.PNG");
+	background-repeat: no-repeat;
+}
+
+.reports:after {
+	content: url("../Images/VLine.PNG")
+}
+
+.errorpages {
+	background-image:: url("../Images/Errorpages.PNG");
+	background-repeat: no-repeat;
+}

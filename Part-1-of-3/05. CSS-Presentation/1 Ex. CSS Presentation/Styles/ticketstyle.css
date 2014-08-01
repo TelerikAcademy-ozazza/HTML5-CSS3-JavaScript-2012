@@ -1,0 +1,92 @@
+.lorange, .grey, .dorange {
+	text-decoration:none;
+}
+
+body {
+	margin:20px;
+	font-family:Arial, sans-serif, Helvetica;
+	font-size:11px;
+	font-weight:bold;
+	text-align:left;
+	background-color: black;
+}
+
+
+nav {
+	width: 550px;
+	height: 30px;
+	font-size: 11px;
+	background-color: black;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0px;
+	margin-left: 0px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	color: red;
+}
+
+
+article {
+	width: 284px;
+	height: 256px;
+	border: 7px white dashed;
+}
+
+.table {
+	background-color:#888888;
+	padding:4px;
+}
+
+td {
+	width:130px;
+	height:24px;
+	padding:3px;
+	vertical-align:middle;
+}
+
+.id {
+	font-weight:normal;
+	font-size:19px;
+	padding:0px;
+	color:#E0E0E0;
+}
+.lgrey {
+	color:#FFFFFF;
+	font-style:oblique;
+}
+
+.lorange {
+	color:#FFFF99;
+}
+
+.green {
+	font-size:30px;
+	padding:2px;
+	color:#00CC66;
+}
+
+.redtop {
+	color:#CC0033;
+}
+
+.grey {
+	color:#E0E0E0;
+}
+
+.dorange {
+	color:#FF9933;
+}

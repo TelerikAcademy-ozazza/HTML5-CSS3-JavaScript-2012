@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		
+		<title>
+			Programmer's Calculator
+		</title>
+		
+		<link rel="stylesheet" type="text/css" href="Styles/PCalc.css"/>
+	</head>
+	
+	<body>
+		<section>
+			<form>
+				<div class="outside">
+					<span>
+						Calculator<input type="button" value=" "/><input type="button" value=" "/><input type="button" value=" "/>
+					</span>
+					<div class="inside">
+						<ul class="menu">
+							<li>
+								<input type="button" value="View"/>
+							</li>
+							<li>
+								<input type="button" value="Edit"/>
+							</li>
+							<li>
+								<input type="button" value="Help"/>
+							</li>
+						</ul>
+											
+						<div class="display1">
+							
+								8854455
+							
+						</div>
+						<table class="display2">
+							<tbody>
+								<tr>
+									<td>
+										0000
+									</td>
+									<td>
+										0000
+									</td>
+									<td>
+										0000
+									</td>
+									<td>
+										0000
+									</td>
+									<td>
+										0000
+									</td>
+									<td>
+										0000
+									</td>
+									<td>
+										0000
+									</td>
+									<td>
+										0000
+									</td>
+								</tr>
+								<tr class="grey">
+									<td>
+										63
+									</td>
+									<td>
+										
+									</td>
+									<td>
+										
+									</td>
+									<td>
+										
+									</td>
+									<td>
+										47
+									</td>
+									<td>
+										
+									</td>
+									<td>
+										
+									</td>
+									<td class="right">
+										32
+									</td>
+								</tr>
+								<tr>
+									<td>
+										0000
+									</td>
+									<td>
+										0000
+									</td>
+									<td>
+										1000
+									</td>
+									<td>
+										0111
+									</td>
+									<td>
+										0001
+									</td>
+									<td>
+										1011
+									</td>
+									<td>
+										1011
+									</td>
+									<td>
+										0111
+									</td>
+								</tr>
+								<tr class="grey">
+									<td>
+										31
+									</td>
+									<td>
+										
+									</td>
+									<td>
+										
+									</td>
+									<td>
+										
+									</td>
+									<td>
+										15
+									</td>
+									<td>
+										
+									</td>
+									<td>
+										
+									</td>
+									<td class="right">
+										0
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						
+						<table class="buttons">
+							<tbody>
+								<tr>
+									<td rowspan="3" colspan="2"  id="radio">
+										<ul>
+											<li>
+												<input type="radio" name="kind" value="Hex" /> Hex
+											</li>
+											<li>
+												<input type="radio" name="kind" value="Dec" class="selected" checked="ckecked" /> Dec
+											</li>
+											<li>
+												<input type="radio" name="kind" value="Oct" /> Oct
+											</li>
+											<li>
+												<input type="radio" name="kind" value="Bin" /> Bin
+											</li>
+										</ul>
+									</td>
+									<td>
+										<input type="button" value=" " class="disabled" disabled="disabled"/>
+									</td>
+									<td>
+										<input type="button" value="Mod"/>
+									</td>
+									<td>
+										<input type="button" value="A" class="sizeup disabled" disabled="disabled"/>
+									</td>
+									<td>
+										<input type="button" value="MC"/>
+									</td>
+									<td>
+										<input type="button" value="MR"/>
+									</td>
+									<td>
+										<input type="button" value="MS"/>
+									</td>
+									<td>
+										<input type="button" value="M&#43;"/>
+									</td>
+									<td>
+										<input type="button" value="M&#8722;"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="button" value="&#40;"/>
+									</td>
+									<td>
+										<input type="button" value="&#41;"/>
+									</td>
+									<td>
+										<input type="button" value="B" class="sizeup disabled" disabled="disabled"/>
+									</td>
+									<td>
+										<input type="button" value="&#8592;" class="sizeup"/>
+									</td>
+									<td>
+										<input type="button" value="CE"/>
+									</td>
+									<td>
+										<input type="button" value="C"/>
+									</td>
+									<td>
+										<input type="button" value="&#177;"/>
+									</td>
+									<td>
+										<input type="button" value="&radic;" class="disabled" disabled="disabled"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="button" value="RoL"/>
+									</td>
+									<td>
+										<input type="button" value="RoR"/>
+									</td>
+									<td>
+										<input type="button" value="C" class="sizeup disabled" disabled="disabled"/>
+									</td>
+									<td>
+										<input type="button" value="7" class="sizeup"/>
+									</td>
+									<td>
+										<input type="button" value="8" class="sizeup"/>
+									</td>
+									<td>
+										<input type="button" value="9" class="sizeup"/>
+									</td>
+									<td>
+										<input type="button" value="&#47;"/>
+									</td>
+									<td>
+										<input type="button" value="&#37;" class="disabled" disabled="disabled"/>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="3" colspan="2" id="radio">
+										<ul>
+											<li>
+												<input type="radio" name="type" value="Qword" class="selected" checked="checked" /> Qword
+											</li>                   
+											<li>                    
+												<input type="radio" name="type" value="Dword" /> Dword
+											</li>                   
+											<li>                    
+												<input type="radio" name="type" value="Word" /> Word
+											</li>                   
+											<li>                    
+												<input type="radio" name="type" value="Byte" /> Byte
+											</li>
+										</ul>
+									</td>
+									<td>
+										<input type="button" value="Or"/>
+									</td>
+									<td>
+										<input type="button" value="Xor"/>
+									</td>
+									<td>
+										<input type="button" value="D" class="sizeup disabled" disabled="disabled"/>
+									</td>
+									<td>
+										<input type="button" value="4" class="sizeup"/>
+									</td>
+									<td>
+										<input type="button" value="5" class="sizeup"/>
+									</td>
+									<td>
+										<input type="button" value="6" class="sizeup"/>
+									</td>
+									<td>
+										<input type="button" value="&#42;"/>
+									</td>
+									<td>
+										<input type="button" value="1&#47;&#967;" class="disabled" disabled="disabled" />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="button" value="Lsh"/>
+									</td>
+									<td>
+										<input type="button" value="Rsh"/>
+									</td>
+									<td>
+										<input type="button" value="E" class="sizeup disabled" disabled="disabled"/>
+									</td>
+									<td>
+										<input type="button" value="1" class="sizeup"/>
+									</td>
+									<td>
+										<input type="button" value="2" class="sizeup"/>
+									</td>
+									<td>
+										<input type="button" value="3" class="sizeup"/>
+									</td>
+									<td>
+										<input type="button" value="&#8722;"/>
+									</td>
+									<td rowspan="2">
+										<input type="button" value="&#61;" id="enter" class="sizeup"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="button" value="Not"/>
+									</td>
+									<td>
+										<input type="button" value="And"/>
+									</td>
+									<td>
+										<input type="button" value="F" class="sizeup disabled" disabled="disabled"/>
+									</td>
+									<td colspan="2">
+										<input type="button" value="0" id="zero" class="sizeup"/>
+									</td>
+									<td>
+										<input type="button" value="&#8218;" class="sizeup disabled" disabled="disabled"/>
+									</td>
+									<td>
+										<input type="button" value="&#43;"/>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</form>
+		</section>
+	</body>
+
+</html>

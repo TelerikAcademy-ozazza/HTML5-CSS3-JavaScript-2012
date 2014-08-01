@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>
+			Semple Form
+		</title>
+	</head>
+	
+	<body>
+		
+		<form method="get" id="submitform">
+			<table border="1" cellspacing="0" cellpadding="5">
+			<colgroup>
+				<col width="200"/>
+				<col width="150"/>
+				<col width="50"/>
+				<col width="50"/>
+			</colgroup>
+				<tfoot>
+					<th colspan="4">
+						<input type="submit" value="Submit" tabindex="19"/>
+						<input type="reset" value="Clear This Form" tabindex="20"/>
+					</th>
+				</tfoot>
+				<tbody>
+					<tr>
+						<th>
+							<label for="lname">Last Name</label>
+						</th>
+						<td colspan="3">
+							<input type="text" id="lname" placeholder="Last Name" autofocus="autofocus" tabindex="1"/>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="fname">First Name</label>
+						</th>
+						<td colspan="3">
+							<input type="text" id="fname" placeholder="First Name" tabindex="2"/>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="address">Address</label>
+						</th>
+						<td colspan="3">
+							<textarea rows="4" cols="35" id="address" placeholder="Address" tabindex="3"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="city">City</label>
+						</th>
+						<td>
+							<input type="text" id="city" placeholder="City" tabindex="4"/>
+						</td>
+						<th>
+							<label for="state">State</label>
+						</th>
+						<td>
+							<input type="text" id="state" placeholder="State" tabindex="5"/>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="zpcode">Zip/ Postal Code</label>
+						</th>
+						<td colspan="3">
+							<input type="text" id="zpcode" placeholder="Post Code" tabindex="6"/>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="country">Country</label>
+						</th>
+						<td colspan="3">
+							<select id="country" tabindex="7">
+								<option value="value1" selected="selected">Bulgaria</option>
+								<option value="value2">United Kingdom</option>
+								<option value="value3">United States of America</option>
+								<option value="value4">Kuwait</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="phone">Phone (country code, area code, number)</label>
+						</th>
+						<td colspan="3">
+							<span id="phone">
+								(+<input type="tel" id="phonecountrycode" placeholder="XXX" tabindex="8">)<input type="tel" id="phoneareacode" placeholder="XX" tabindex="9">-<input type="tel" id="phonenumber" placeholder="XXXXXXX" tabindex="10"/>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="email">E-mail</label>
+						</th>
+						<td colspan="3">
+							<input type="email" id="email" required="true" placeholder="XXX@XX.XX" tabindex="11" />
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="bday">Birth Date</label>
+						</th>
+						<td colspan="3">
+							<span>
+								Month<input type="month" id="bdaymonth" placeholder="XX" tabindex="12"/> Day<input type="date" id="bday" placeholder="XX" tabindex="13"/> Year<input type="year" id="bdayyear" placeholder="XXXX" tabindex="14"/>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="gender">Gender</label>
+						</th>
+						<td colspan="3">
+							<select name="gender" id="gender">
+								<option value="male">Male</option>
+								<option value="female" selected="selected" tabindex="15">Female</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="startingdate">Starting Date</label>
+						</th>
+						<td colspan="3">
+							<input type="radio" name="springdate" value="Spring 2006" tabindex="16"/>
+							<label for="springdate">Spring 2006</label>
+							<input type="radio" name="summerdate" value="Summer 2006" tabindex="17"/>
+							<label for="summerdate">Summer 2006</label>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="cq">Comments/ Questions</label>
+						</th>
+						<td colspan="3">
+							<textarea rows="10" cols="35" name="cq" id="cq" placeholder="Comments/ Questions" tabindex="18"></textarea>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+		
+	</body>
+
+</html>

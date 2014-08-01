@@ -1,0 +1,56 @@
+.lorange, .grey, .dorange {
+	text-decoration:none;
+}
+
+body {
+	margin:20px;
+	font-family:Arial, sans-serif, Helvetica;
+	font-size:11px;
+	font-weight:bold;
+	text-align:left;
+}
+
+.table {
+	background-color:#888888;
+	padding:3px;
+}
+
+td {
+	width:130px;
+	height:24px;
+	padding:3px;
+	vertical-align:middle;
+}
+
+.id {
+	font-weight:normal;
+	font-size:19px;
+	padding:0px;
+	color:#E0E0E0;
+}
+.lgrey {
+	color:#FFFFFF;
+	font-style:oblique;
+}
+
+.lorange {
+	color:#FFFF99;
+}
+
+.green {
+	font-size:30px;
+	padding:2px;
+	color:#00CC66;
+}
+
+.redtop {
+	color:#CC0033;
+}
+
+.grey {
+	color:#E0E0E0;
+}
+
+.dorange {
+	color:#FF9933;
+}

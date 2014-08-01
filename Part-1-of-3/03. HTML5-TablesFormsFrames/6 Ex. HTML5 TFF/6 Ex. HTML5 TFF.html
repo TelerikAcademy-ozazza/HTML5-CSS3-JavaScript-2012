@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		
+		<title>
+			homework 6
+		</title>
+		
+		<style type="text/css">
+			#table 
+				{
+					font-family:Arial;
+					font-size:10px;
+					text-decoration:none;
+					width:100%;
+					border:thin solid;
+					border-collapse:collapse;
+					background:white;
+					color:#404040;
+				}
+			#table td
+				{
+					border:thin solid;
+					vertical-align:middle;
+					padding:5px;
+				}
+			input
+				{
+					vertical-align:middle;
+					border:thin solid #66CC99;
+					color:#66CC99;
+				}
+		</style>
+		
+	</head>
+	
+	<body>
+		<form name="tableform" method="post" style="vertical-align:middle;">
+		
+			<table id="table" cellspacing="0">
+			
+				<thead class="thead" style="background-color:#CCFF99;">
+					<tr>
+						<td colspan="6">
+							Drag a column header and drop it here to group by that column
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Product ID
+						</td>
+						<td>
+							Product Name
+						</td>
+						<td>
+							Unit Price
+						</td>
+						<td>
+							Quantity per Unit
+						</td>
+						<td>
+							Units per Stock
+						</td>
+						<td>
+							Discountinued
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="field1"/>
+						</td>
+						<td>
+							<input type="text" name="field2"/>
+						</td>
+						<td>
+							<input type="text" name="field3"/> <input type="image" src="Images/filterbutton2.png" alt="filter logo" class="button" name="filterbutton" title="Filter"/>
+						</td>
+						<td>
+							<input type="text" name="field4"/>
+						</td>
+						<td>
+							<input type="text" name="field5"/> <input type="image" src="Images/filterbutton2.png" alt="filter logo" class="button" name="filterbutton" title="Filter"/> 
+						</td>
+						<td>
+							<input type="checkbox" name="field6"/> <input type="image" src="Images/filterbutton2.png" alt="filter logo" class="button" name="filterbutton" title="Filter"/>
+						</td>
+					</tr>
+				</thead>
+				<tfoot class="tfoot" style="background-color:#CCFF99;">
+					<tr>
+						<td colspan="6">
+						
+							
+							<input type="image" src="Images/first.png" alt="first logo" class="button" name="firstbutton" title="First Page"/> 
+							<input type="image" src="Images/back.png" alt="back logo" class="button" name="backbutton" title="Previous Page"/> 
+							<input style="border:thin solid red;" type="image" src="Images/one.png" alt="one logo" class="button" name="onebutton"/> 
+							<input type="image" src="Images/two.png" alt="two logo" class="button" name="twobutton"/> 
+							<input type="image" src="Images/three.png" alt="three logo" class="button" name="threebutton"/> 
+							<input type="image" src="Images/four.png" alt="four logo" class="button" name="fourbutton"/> 
+							<input type="image" src="Images/five.png" alt="five logo" class="button" name="fivebutton"/> 
+							<input type="image" src="Images/six.png" alt="six logo" class="button" name="sixbutton"/> 
+							<input type="image" src="Images/seven.png" alt="seven logo" class="button" name="sevenbutton"/> 
+							<input type="image" src="Images/eight.png" alt="eight logo" class="button" name="eightbutton"/> 
+							<input type="image" src="Images/nine.png" alt="nine logo" class="button" name="ninebutton"/> 
+							<input type="image" src="Images/ten.png" alt="ten logo" class="button" name="tenbutton"/> ... 
+							<input type="image" src="Images/next.png" alt="next logo" class="button" name="nextbutton" title="Next Page"/> 
+							<input type="image" src="Images/last.png" alt="last logo" class="button" name="lastbutton" title="Last Page"/>
+							<span style="padding-left:10%;">
+								Page Size:
+							</span>
+								<select>
+									<option value="value10" selected="selected">10</option> 
+									<option value="value20">20</option> 
+									<option value="value50">50</option> 
+									<option value="value100">100</option>
+								</select>
+							<span style="padding-left:30%;">
+								335104 items in 33511 pages
+							</span>
+						</td>
+					</tr>
+				</tfoot>
+				<tbody class="tbody">
+					<tr>
+						<td>
+							1
+						</td>
+						<td>
+							Chang
+						</td>
+						<td>
+							$19
+						</td>
+						<td>
+							24 - 12 oz Bottles
+						</td>
+						<td>
+							39
+						</td>
+						<td>
+							<input type="checkbox" checked="checked" disabled="disabled" name="box1"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							2
+						</td>
+						<td>
+							Chang
+						</td>
+						<td>
+							$19
+						</td>
+						<td>
+							24 - 12 oz Bottles
+						</td>
+						<td>
+							39
+						</td>
+						<td>
+							<input type="checkbox" name="box2" disabled="disabled"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							3
+						</td>
+						<td>
+							Chang
+						</td>
+						<td>
+							$19
+						</td>
+						<td>
+							24 - 12 oz Bottles
+						</td>
+						<td>
+							39
+						</td>
+						<td>
+							<input type="checkbox" name="box3" disabled="disabled"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							4
+						</td>
+						<td>
+							Chang
+						</td>
+						<td>
+							$19
+						</td>
+						<td>
+							24 - 12 oz Bottles
+						</td>
+						<td>
+							39
+						</td>
+						<td>
+							<input type="checkbox" name="box4" disabled="disabled"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							5
+						</td>
+						<td>
+							Chang
+						</td>
+						<td>
+							$19
+						</td>
+						<td>
+							24 - 12 oz Bottles
+						</td>
+						<td>
+							39
+						</td>
+						<td>
+							<input type="checkbox" name="box5" disabled="disabled"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							6
+						</td>
+						<td>
+							Chang
+						</td>
+						<td>
+							$19
+						</td>
+						<td>
+							24 - 12 oz Bottles
+						</td>
+						<td>
+							39
+						</td>
+						<td>
+							<input type="checkbox" name="box6" disabled="disabled"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							7
+						</td>
+						<td>
+							Chang
+						</td>
+						<td>
+							$19
+						</td>
+						<td>
+							24 - 12 oz Bottles
+						</td>
+						<td>
+							39
+						</td>
+						<td>
+							<input type="checkbox" name="box7" disabled="disabled"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							8
+						</td>
+						<td>
+							Chang
+						</td>
+						<td>
+							$19
+						</td>
+						<td>
+							24 - 12 oz Bottles
+						</td>
+						<td>
+							39
+						</td>
+						<td>
+							<input type="checkbox" checked="checked" name="box8" disabled="disabled"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							9
+						</td>
+						<td>
+							Chang
+						</td>
+						<td>
+							$19
+						</td>
+						<td>
+							24 - 12 oz Bottles
+						</td>
+						<td>
+							39
+						</td>
+						<td>
+							<input type="checkbox" name="box9" disabled="disabled"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							10
+						</td>
+						<td>
+							Chang
+						</td>
+						<td>
+							$19
+						</td>
+						<td>
+							24 - 12 oz Bottles
+						</td>
+						<td>
+							39
+						</td>
+						<td>
+							<input type="checkbox" name="box10" disabled="disabled"/>
+						</td>
+					</tr>
+				</tbody>
+				
+			</table>
+		
+		</form>
+	</body>
+
+</html>
